@@ -1,0 +1,142 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.counter-value {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.counter-button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.reset-button {
+    background-color: #f44336;
+}
+
+.reset-button:hover {
+    background-color: #e53935;
+}
+
+/* Counter.css */
+
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.counter-value {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.counter-button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.reset-button {
+    background-color: #f44336;
+}
+
+.reset-button:hover {
+    background-color: #e53935;
+}
+
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.counter-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.counter-value {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.counter-button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.reset-button {
+    background-color: #f44336;
+}
+
+.reset-button:hover {
+    background-color: #e53935;
+}
