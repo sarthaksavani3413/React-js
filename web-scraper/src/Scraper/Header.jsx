@@ -1,31 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import './Header.css';
 
-const DataFetchingComponent = () => {
+const Header = () => {
+    const [data, setData] = useState({});
 
-    // **useEffect to fetch data on component mount**
     useEffect(() => {
-        // **Define the fetch function**
-        fetchData(); // **Call the fetch function**
-    }, []); // **Empty dependency array means this useEffect runs only once after the initial render**
-
-    // **Conditional Rendering**
-    if (loading) return <div>Loading...</div>;
-    if (error) return <div>Error: {error}</div>;
+        fetch('https://mocki.io/v1/c362d733-434d-4bef-a722-ca25e983b04c')
+            .then(res => res.json())
+            .then(head => setData(head))
+            .catch(console.error);
+    }, []);
 
     return (
-        <div>
-            <h1>Data from API</h1>
-            <ul>
-                {/* **Map through the data and display it** */}
-                {data.map(item => (
-                    <div>
-                        <img src={item.image} alt="" />
-                        <li key={item.id}>{item.name}</li>
-                    </div>
-                ))}
-            </ul>
-        </div>
+        <header className="header-wrapper">
+            <div className="logo">
+                <img src={data.logo?.image} alt="Logo" className="logo-img" />
+            </div>
+            <nav>
+                <ul>
+                    {(data.menu || []).map((item, idx) => (
+                        <li key={idx}>
+                            {item.title}
+                            <ul>
+                                {(item.subMenu || []).map((sub, subIdx) => (
+                                    <li key={subIdx}>{sub}</li>
+                                ))}
+                            </ul>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
     );
 };
 
-export default DataFetchingComponent;
+export default Header;

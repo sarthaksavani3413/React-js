@@ -1,0 +1,182 @@
+{
+    "logo": {
+        "id": 1,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png",
+        "alt": "Myntra Logo"
+    },
+    "menu": {
+        "navbar": [
+            {
+                "title": "MEN"
+            },
+            {
+                "title": "WOMEN"
+            },
+            {
+                "title": "KIDS"
+            },
+            {
+                "title": "HOME"
+            },
+            {
+                "title": "BEAUTY"
+            },
+            {
+                "title": "GENZ"
+            },
+            {
+                "title": "STUDIO",
+                "label": "NEW"
+            }
+        ]
+    },
+    "search": {
+        "placeholder": "Search for products, brands, or styles",
+        "icon": "bi bi-search"
+    },
+    "icons": [
+        {
+            "icon": "bi bi-person",
+            "alt": "User Icon"
+        },
+        {
+            "icon": "bi bi-heart",
+            "alt": "Heart Icon"
+        },
+        {
+            "icon": "bi bi-bag",
+            "alt": "Bag Icon"
+        }
+    ],
+    "sliders": {
+        "image": [
+            {
+                "id": 1,
+                "name": "Activewear",
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/31/4031994d-9092-4aa7-aea1-f52f2ae5194f1654006594976-Activewear_DK.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Handbags 1",
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/6/27/53b4daed-cd2c-4111-86c5-14f737eceb351656325318973-Handbags_Desk.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Handbags 2",
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/179e278f-77ee-44c2-bf39-9f00b0cd08e01658752429301-Handbags_Desk.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Myntra Promo",
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/28/2b3b8a99-6b66-40b0-9246-6616e5719cbf1745836028793-unnamed.jpg"
+            },
+            {
+                "id": 5,
+                "name": "USPA Banner",
+                "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg"
+            }
+        ]
+    },
+    "section": "RISING STARS",
+    "offers": [
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/b17e2c3a-6827-4232-b2c7-1c7a3ed0b9ba1743665081294-image_png2131570976.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/bb80e70c-df47-45e1-a5fa-770846769a7d1743665099089-image_png_852971279.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/f1c6e58a-b514-4081-9c10-096dde097ac91743665116601-image_png_1886899461.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/bc244f6b-ec59-4e0a-affb-84a062bdb5e11743665134126-image_png69923319.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/3b8762c2-8c67-46ff-8a4e-f8d0bf6c38121743665152429-image_png282063139.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/925ace95-64e1-4692-92c0-826bde3f838b1743664826626-image_png2008444094.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/08fed317-13c3-4fca-925f-4e3f904adf6e1743664846782-image_png_345798654.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/edb347da-f35b-4d68-91d7-e3b0abba39f01743664908755-cf0de057-98b8-4d14-968d-8b35878100db.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/9ca117d1-1c90-4217-8615-f5d9a66245251743664924386-image_png676529993.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/62628ecd-af1d-4b81-8a82-302520ade5061743664952778-image_png_1238714099.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/62d92229-2d9d-4cc6-933f-1facd190248c1743664969307-image_png_1434304747.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/b3b8e1d5-0b7f-4ac2-988a-e1a2a4b71ef51743664985845-image_png747386139.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/6d3a4cec-35ee-4002-b8c9-115b7979eb4e1743665003385-image_png225290513.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/a478f3f4-b261-4d42-8b41-ba8e38eed7491743665021245-3d887b9c-1741-4f13-928f-4e052f5b4858.png"
+        },
+        {
+            "image": "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/e227f4c1-b6c6-4abc-bfcf-4693266d102a1743665039878-image_png_1046077641.png"
+        }
+    ],
+    "Online_Shopping": [
+        "Men",
+        "Women",
+        "Kids",
+        "Home",
+        "Beauty",
+        "Genz",
+        "Gift Cards",
+        "Myntra Insider"
+    ],
+    "Customer_Policies": [
+        "Contact Us",
+        "FAQ",
+        "T&C",
+        "Terms Of Use",
+        "Track Orders",
+        "Shipping",
+        "Cancellation",
+        "Returns",
+        "Privacy policy",
+        "Grievance Redressal"
+    ],
+    "Experience_Myntra_App_On_Mobile": {
+        "Apps": [
+            "https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png",
+            "https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+        ],
+        "Social_Media": [
+            "https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png",
+            "https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png",
+            "https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png",
+            "https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
+        ]
+    },
+    "Badges": {
+        "guarantee": {
+            "image": "https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png",
+            "title": "100% ORIGINAL",
+            "description": "Guarantee for all products at myntra.com"
+        },
+        "return_policy": {
+            "image": "https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png",
+            "title": "Return within 14 days",
+            "description": "Of receiving your order"
+        }
+    },
+    "Useful_Links": [
+        "Blog",
+        "Careers",
+        "Site Map",
+        "Corporate Information",
+        "Whitehat",
+        "Cleartrip"
+    ]
+}

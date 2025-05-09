@@ -1,0 +1,82 @@
+.category-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .category-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .category-header h2 {
+    font-size: 32px;
+    color: #1e392a;
+    margin: 0 20px;
+  }
+  
+  .corner {
+    width: 60px;
+    height: auto;
+  }
+  
+  .corner.left {
+    transform: rotateY(180deg);
+  }
+  
+  .category-grid {
+    background-color: #fff8e1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .category-card {
+  
+    width: 180px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+  
+  .category-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  }
+  
+  .category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  
+  .text {
+    padding: 10px;
+    color: #1e392a;
+  }
+  
+  .text h4 {
+    margin: 8px 0 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .text .discount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #064420;
+  }
+  
+  .text .shop {
+    font-size: 14px;
+    color: #064420;
+    margin-top: 4px;
+  }
+  

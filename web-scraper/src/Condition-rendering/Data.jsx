@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { category, product } from './render'
+import { category, product } from './Data'
 import './Data.css'; // ⬅️ Import the CSS file
 
 const Data = () => {

@@ -5,106 +5,106 @@
   "name": [
     "home",
     {
-      "STD 10th & 12th": [
-        "ITA-CS+",
-        "Animation & VFX 2 year",
-        "Business Administration Commerce"
-      ],
+      "STD 10th & 12th": {
+        "ITA-CS+": "ITA-CS+",
+        "Animation": "Animation & VFX 2 year",
+        "Business": "Business Administration Commerce"
+      },
       "Career Courses": {
-        "Designing": [
-          "Master in Graphic Design",
-          "Master in UI/UX & Graphic",
-          "Design",
-          "UI/UX Design course",
-          "Master in Game Design"
-        ],
-        "Visualization": [
-          "Master in Animation",
-          "Animation & VFX 2 year"
-        ],
-        "Coding & Programming": [
-          "Master in Web Designing",
-          "Master in Front End Developing",
-          "Master in Web Development",
-          "Master in Android Development",
-          "Master in iOS Development",
-          "Master in Game Development",
-          "Master in Flutter",
-          "Advance in Python",
-          "Full Stack Development"
-        ]
+        "Designing": {
+          "Graphic Design": "Master in Graphic Design",
+          "UI/UX & Graphic": "Master in UI/UX & Graphic",
+          "Design": "Master in Web Designing",
+          "UI/UX Design course": "UI/UX Design course",
+          "Game Design": "Master in Game Design"
+        },
+        "Visualization": {
+          "Animation": "Master in Animation",
+          "Animation & VFX 2 year": "Animation & VFX 2 year"
+        },
+        "Coding & Programming": {
+          "Web Designing": "Master in Web Designing",
+          "Front End Developing": "Master in Front End Developing",
+          "Web Development": "Master in Web Development",
+          "Android Development": "Master in Android Development",
+          "iOS Development": "Master in iOS Development",
+          "Game Development": "Master in Game Development",
+          "Flutter": "Master in Flutter",
+          "Advance in Python": "Advance in Python",
+          "Full Stack Development": "Full Stack Development"
+        }
       },
       "Courses": {
-        "Programming": [
-          "java",
-          "Android",
-          "Ios",
-          "React-native",
-          "React-js",
-          "Node-js",
-          "PHP",
-          "Unity c # Script",
-          "Angular js",
-          "Laravel",
-          "Python"
-        ],
-        "graphic Design": [
-          "Photoshop",
-          "Illustrater",
-          "Figma",
-          "Coraldraw",
-          "After Effects",
-          "Poster Designing"
-        ],
-        "Video Editing": [
-          "Video Editing",
-          "Davinci Resolve Course"
-        ],
-        "Short Term": [
-          "Microsoft Office",
-          "Cyber Security",
-          "Full Stack Devlopment",
-          "Bootcamp",
-          "Data Analysis",
-          "Autodesk Autocard Course",
-          "Digital Marketing",
-          "Visual Effects Courses"
-        ],
-        "Front End Coding": [
-          "Bootstap",
-          "Html 5 css 3"
-        ],
-        "Project Tranning": [
-          "PHP",
-          "Android Trainning",
-          "IOS",
-          "JAVA",
-          "Flutter",
-          "Python"
-        ],
-        "Foundation Courses": [
-          "CCC",
-          "C & c++",
-          "Software Devlopment",
-          "Foundation"
-        ],
-        "Corporate Training": [
-          "Public Speaking Courses",
-          "Entreprenurshipp Bootcamp"
-        ],
-        "Next-Gen Technologies": [
-          "Data-Science & AI=ML Python",
-          "AR-VR"
-        ],
+        "Programming": {
+          "java": "Java",
+          "Android": "Android",
+          "Ios": "Ios",
+          "React-native": "React-native",
+          "React-js": "React-js",
+          "Node-js": "Node-js",
+          "PHP": "PHP",
+          "Unity c # Script": "Unity c # Script",
+          "Angular js": "Angular js",
+          "Laravel": "Laravel",
+          "Python": "Python"
+        },
+        "graphic Design": {
+          "Photoshop": "Photoshop",
+          "Illustrater": "Illustrator",
+          "Figma": "Figma",
+          "Coraldraw": "Coraldraw",
+          "After Effects": "After Effects",
+          "Poster Designing": "Poster Designing"
+        },
+        "Video Editing": {
+          "Video Editing": "Video Editing",
+          "Davinci Resolve Course": "Davinci Resolve Course"
+        },
+        "Short Term": {
+          "Microsoft": "Microsoft Office",
+          "Cyber Security": "Cyber Security",
+          "Full Stack": "Full Stack Devlopment",
+          "Bootcamp": "Bootcamp",
+          "Data Analysis": "Data Analysis",
+          "Autodesk Autocard": "Autodesk Autocard Course",
+          "Digital Marketing": "Digital Marketing",
+          "Visual Effects": "Visual Effects Courses"
+        },
+        "Front End Coding": {
+          "Bootstap": "Bootstap",
+          "Html 5 css 3": "Html 5 css 3"
+        },
+        "Project Tranning": {
+          "PHP": "PHP",
+          "Android": "Android Trainning",
+          "IOS": "IOS",
+          "JAVA": "JAVA",
+          "Flutter": "Flutter",
+          "Python": "Python"
+        },
+        "Foundation Courses": {
+          "CCC": "CCC",
+          "C & c++": "C & c++",
+          "Software": "Software Devlopment",
+          "Foundation": "Foundation"
+        },
+        "Corporate Training": {
+          "Public Speaking": "Public Speaking Courses",
+          "Entreprenurship Bootcamp": "Entreprenurship Bootcamp"
+        },
+        "Next-Gen Technologies": {
+          "Data-Science & AI": "Data-Science & AI=ML Python",
+          "AR-VR": "AR-VR"
+        },
         "Accounting": "Diploma in Practical Accounting & Texation"
       },
       "About Us": [
         "Group of institutes",
         {
-          "Group of institutes": [
-            "RNW Designing institute",
-            "RNW International"
-          ]
+          "Group of institutes": {
+            "RNW Designing institute": "RNW Designing institute",
+            "RNW International": "RNW International"
+          }
         },
         "Career With Us",
         "Affiliations / Authorised",
@@ -112,27 +112,27 @@
       ]
     },
     {
-      "Student Corner": [
-        "Apply job",
-        "Placement",
-        "Company Visit",
-        "Expert Session",
-        "Placement Drive",
-        "Grievance",
-        "Why I Choose RNW",
-        "Placement Partners",
-        "Student Works"
-      ]
+      "Student Corner": {
+        "Apply job": "Apply job",
+        "Placement": "Placement",
+        "Company Visit": "Company Visit",
+        "Expert Session": "Expert Session",
+        "Placement Drive": "Placement Drive",
+        "Grievance": "Grievance",
+        "Why I Choose RNW": "Why I Choose RNW",
+        "Placement Partners": "Placement Partners",
+        "Student Works": "Student Works"
+      }
     },
     "Contact Us"
   ],
   "slider": {
-    "images": [
-      "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider1.png",
-      "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider2.png",
-      "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider.png",
-      "https://www.rnwmultimedia.edu.in/assets/img/slider/Ai-banner.jpg"
-    ]
+    "images": {
+      "slider_1": "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider1.png",
+      "slider_2": "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider2.png",
+      "slider_3": "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider.png",
+      "slider_4": "https://www.rnwmultimedia.edu.in/assets/img/slider/Ai-banner.jpg"
+    }
   },
   "stats": [
     {
