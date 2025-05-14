@@ -2,7 +2,8 @@
 // import FacebookScraper from './Social-media/FacebookScraper';
 // import {Scrape} from './Web-scraper/Scrap';
 // import {MenuList} from './Web-scraper/Scrap';
-import Image  from './Web-scraper/Image';
+import Form from "./form/Form";
+// import Image  from './Web-scraper/Image';
 const App = () => {
 
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <FacebookScraper/> */}
       {/* <MenuList /> */}
       {/* <Scrape /> */}
-      <Image />
+      {/* <Image /> */}
+      <Form />
     </div>
   );
 };
