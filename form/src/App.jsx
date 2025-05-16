@@ -1,13 +1,22 @@
-// import Validation from './form/Validation.jsx'
-import Dynamic from "./form/Dynamic"
-function App() {
+import React from 'react'
+import A from './components/A'
+// import Light_dark from './components/Light_Dark'
+// import Validation from './form/Validation'
+// import Dynamic from './form/Dynamic'
+// import A from './HOC/A'
+// import B from './HOC/B'
 
-  return (
-    <div>
-      {/* <Validation/> */}
-      <Dynamic/>
-    </div>
-  )
+const App = () => {
+    return (
+        <div>
+            {/* <Validation /> */}
+            {/* <Dynamic /> */}
+            {/* <A /> */}
+            {/* <B /> */}
+           <A/>
+           {/* <Light_dark/> */}
+        </div>
+    )
 }
 
 export default App

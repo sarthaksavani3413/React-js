@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const index = () => {
+const Validation = () => {
 
   const [formInput, setFormInput] = useState({
     name: "",
@@ -181,4 +181,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Validation
