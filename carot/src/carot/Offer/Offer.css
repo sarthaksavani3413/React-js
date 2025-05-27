@@ -1,0 +1,166 @@
+body {
+    background: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    padding: 32px 0 0 0;
+    margin: 0 50px;
+}
+
+.sidebar {
+    background: #fff;
+    border-radius: 6px;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar button {
+    background: #f7f7f7;
+    border: none;
+    border-radius: 3px;
+    padding: 16px 0 16px 0;
+    text-align: left;
+    font-size: 16px;
+    color: #222;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar .green {
+    color: #3bb77e;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sidebar button span {
+    color: #b0b0b0;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.sidebar .view-more {
+    background: transparent;
+    color: #3bb77e;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 12px 0 8px 0;
+}
+
+.sidebar .view-more:hover {
+    background: #e9f7ef;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 476px;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+    z-index: 1;
+}
+
+.card:hover::before {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.discount {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 18px 4px 14px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    z-index: 2;
+    letter-spacing: -1px;
+}
+
+.discount sup {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 5px;
+    top: 0.2em;
+    position: relative;
+}
+
+.discount span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 6px;
+    margin-top: 6px;
+    letter-spacing: 0;
+    margin-top: 0.4rem;
+}
+
+.card-footer {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 80%, rgba(0, 0, 0, 0.0) 100%);
+    padding: 32px 0 18px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.card-footer h3 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    letter-spacing: 0.5px;
+}
+
+.shop-btn {
+    background: #3bb77e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    width: 30%;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.shop-btn:hover {
+    background: #2a9d8f;
+}

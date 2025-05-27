@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.fruit-banner {
+    width: 100%;
+    height: 485px;
+    background-image: url('../img/product-banner.jpg');
+    background-size: contain;
+    background-position: top;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.fruit-content {
+    position: relative;
+    z-index: 2;
+}
+
+.fruit-content h3 {
+    font-size: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.fruit-content h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #f7dc91;
+}
+
+.fruit-content p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #6cc7a3;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: #58b091;
+}
+
+.PopularProduct {
+    margin-top: 100px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container-product {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-box h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.title-box p {
+    color: #6c757d;
+    text-align: center;
+    font-weight: 400;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 750px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f7f7f7;
+}
+
+.category-item.active {
+    background-color: #e9f7ef;
+    color: #3bb77e;
+    border-left: 4px solid #3bb77e;
+}
+
+.category-item:first-child {
+    background-color: #e9f7ef;
+    color: #3bb77e;
+}
+
+.category-item:hover {
+    background-color: #e9f7ef;
+    color: #3bb77e;
+}
+
+.popular65roduct-banner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.popular-product-banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    color: white;
+}
+
+.banner-content h3,
+.banner-content h2,
+.banner-content p {
+    opacity: 0.9;
+}
+
+.banner-content h2 {
+    opacity: 0.7;
+    letter-spacing: 1.5px;
+}
+
+.banner-content p {
+    opacity: 0.8;
+}
+
+.banner-content button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+    height: 370px;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 89%;
+    left: 40%;
+    background-color: rgb(241, 241, 241);
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: green;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icons i {
+    display: block;
+    background: white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+}
+
+.info-box {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.info-box .category {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+.stars {
+    color: orange;
+    padding: 5px 0;
+    font-size: large;
+}
+
+span {
+    margin-right: 2px;
+    color: #888;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.product-title {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 1rem;
+    color: green;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.old-price {
+    color: #aaa;
+    margin-left: 5px;
+    text-decoration: line-through;
+}

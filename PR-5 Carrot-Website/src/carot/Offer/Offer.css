@@ -1,0 +1,35 @@
+.offer-card {
+    transition: transform 0.3s ease-in-out, background-size 0.3s ease-in-out;
+}
+
+.offer-card:hover .card-body {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.custom-btn {
+    background-color: #f7f7f8 ;
+    border: 1px solid #dee2e6 ;
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    transition: none ;
+}
+
+.custom-btn:hover,
+.custom-btn:focus,
+.custom-btn:active {
+    background-color: #f7f7f8 ;
+    border-color: #dee2e6 ;
+    box-shadow: none ;
+    color: green ;
+}
+
+.custom-btn.active {
+    background-color: #f7f7f8 ;
+    border: 1px solid #dee2e6 ;
+    box-shadow: none;
+    font-weight: 500;
+    color: #64b496;
+    height: 100%;
+}
