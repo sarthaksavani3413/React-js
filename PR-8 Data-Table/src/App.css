@@ -59,32 +59,48 @@ h2 {
     margin-bottom: 20px;
 }
 
-form {
-    display: grid;
-    gap: 15px;
-    margin-bottom: 25px;
+.form-container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 8px;
 }
 
-form input,
-form select {
+.form-group {
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.form-group input,
+.form-group select {
+    margin-top: 6px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
 }
 
-form label {
+.form-checkbox {
     display: flex;
     align-items: center;
-    gap: 10px;
+    margin: 6px 0;
 }
 
-.category .dropdown:hover {
-    background-color: #007bff;
+.form-checkbox input[type="checkbox"] {
+    margin-right: 10px;
 }
 
+.form-inline {
+    display: flex;
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.form-group input[type="submit"],
 form button {
     padding: 10px;
     background: #007bff;
@@ -93,6 +109,11 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 800px;
+}
+
+.category .dropdown:hover {
+    background-color: #007bff;
 }
 
 table {
@@ -135,7 +156,7 @@ button.delete {
 
 .footer {
     color: #000;
-    padding: 40px 20px 20px;
+    padding: 0px 20px 20px;
     margin-top: 50px;
 }
 

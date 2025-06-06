@@ -13,18 +13,38 @@ const App = () => {
   const [price, setPrice] = useState("");
 
   const [record, setRecord] = useState([]);
+  const [editId, setEditId] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const newProduct = {
-      productName,
-      sku,
-      category,
-      inStock,
-      price
-    };
+    if (editId === null) {
+      const newProduct = {
+        id: record.length + 1,
+        productName,
+        sku,
+        category,
+        price,
+        inStock,
+      }
+    } else {
+      const updated = record.map(item => {
+        if (item.id === editId) {
+          return {
+            ...item,
+            productName,
+            sku,
+            category,
+            price,
+            inStock
+          };
+        }
+        return item;
+      });
 
+      setRecord(updated);
+      setEditId(null);
+    }
     setRecord([...record, newProduct]);
 
     setProductName("");
@@ -34,19 +54,20 @@ const App = () => {
     setPrice("");
   };
 
-  const handleDelete = (indexToDelete) => {
-    const updated = record.filter((_, index) => index !== indexToDelete);
+  const handleDelete = (id) => {
+    const updated = record.filter((val) => val.id !== id);
     setRecord(updated);
   };
 
-  const handleEdit = (indexToEdit) => {
-    const itemToEdit = record[indexToEdit];
-    if (itemToEdit) {
-      setProductName(itemToEdit.productName);
-      setSku(itemToEdit.sku);
-      setCategory(itemToEdit.category);
-      setInStock(itemToEdit.inStock);
-      setPrice(itemToEdit.price);
+  const handleEdit = (id) => {
+    const item = record.find(item => item.id == id);
+    if (item) {
+      setProductName(item.productName);
+      setSku(item.sku);
+      setCategory(item.category);
+      setInStock(item.inStock);
+      setPrice(item.price);
+      setEditId(item.id);
     }
   };
 
@@ -136,16 +157,16 @@ const App = () => {
         </thead>
         <tbody>
           {
-            record.map((item, index) => (
-              <tr key={index}>
+            record.map((item) => (
+              <tr key={item.id}>
                 <td>{item.productName}</td>
                 <td>{item.sku}</td>
                 <td>{item.category}</td>
                 <td>{item.inStock ? "Yes" : "No"}</td>
                 <td>${item.price}</td>
                 <td>
-                  <button className="edit" onClick={() => handleEdit(index)}>Edit</button>{" "}
-                  <button className="delete" onClick={() => handleDelete(index)}>Delete</button>
+                  <button className="edit" onClick={() => handleEdit(item.id)}>Edit</button>{" "}
+                  <button className="delete" onClick={() => handleDelete(item.id)}>Delete</button>
                 </td>
               </tr>
             ))
@@ -195,7 +216,7 @@ const App = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          &copy; {new Date().getFullYear()} Retail Manager | All rights reserved
+          &copy; 2025 Retail Manager | All rights reserved
         </div>
       </footer>
     </div>

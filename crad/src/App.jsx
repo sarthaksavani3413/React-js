@@ -1,82 +1,29 @@
-import React, { useState } from 'react';
-import Form from './Table/Form';
-import View from './Table/View';
+// import React, { useState } from 'react';
+// import Localstorage from './Localstorage';
+// import Form from './Table/Form';
+// import View from './Table/View';
+import Add from './Router/Add';
+import View from './Router/View';
+import Edit from './Router/Edit';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const Localstorage = () => {
-  const [record, setRecord] = useState(localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : []);
-  const [input, setInput] = useState({
-    name: "",
-    email: "",
-    password: "",
-    gender: "",
-    courses: [],  
-    city: ""
-  });
-
-  const changeInput = (e) => {
-    const { name, value, type, checked } = e.target;
-
-    if (type === "checkbox") {
-      if (checked) {
-        setInput({
-          ...input,
-          courses: [...input.courses, value]
-        });
-      } else {
-        setInput({
-          ...input,
-          courses: input.courses.filter(course => course !== value)
-        });
-      }
-    } else {
-      setInput({
-        ...input,
-        [name]: value
-      });
-    }
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const newRecord = [...record, input];
-    setRecord(newRecord);
-    localStorage.setItem('user', JSON.stringify(newRecord));
-    setInput({
-      name: "",
-      email: "",
-      password: "",
-      gender: "",
-      courses: [],
-      city: ""
-    });
-  };
-
-  const handleDelete = (index) => {
-    const updated = record.filter((val, i) => i !== index);
-    setRecord(updated);
-    localStorage.setItem('user', JSON.stringify(updated));
-  };
-
-  const handleEdit = (index) => {
-    const itemToEdit = record.find((val, i) => i === index);
-    setInput(itemToEdit);
-  };
+const App = () => {
 
   return (
     <div align="center">
-      <Form
-        setRecord={setRecord}
-        record={record}
-        changeInput={changeInput}
-        handleSubmit={handleSubmit}
-        input={input} />
-      <br></br>
-      <View
-        record={record}
-        handleDelete={handleDelete}
-        handleEdit={handleEdit} />
+      {/* <Localstorage/> */}
+      {/* <Form /> */}
+      {/* <br></br> */}
+      {/* <View/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/add" element={<Add />} />
+          <Route path="/" element={<View />} />
+          <Route path="/edit/:id" element={<Edit />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
 
-export default Localstorage;
+export default App;
