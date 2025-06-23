@@ -1,17 +1,19 @@
-export const increment = () => {
+const increment = () => {
     return {
-        type: 'inc'
-    }
-}
+        type: 'inc',
+    };
+};
 
-export const decrement = () => {
+const decrement = () => {
     return {
-        type: 'dec'
-    }
-}
+        type: 'dec',
+    };
+};
 
-export const reset = () => {
+const reset = () => {
     return {
-        type: 'res'
-    }
-}
+        type: 'res',
+    };
+};
+
+export { increment, decrement, reset };

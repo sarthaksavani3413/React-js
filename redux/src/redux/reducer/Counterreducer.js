@@ -1,21 +1,11 @@
-const initialState = {
-    count: 0
-};
-
-const counterReducer = (state = initialState, action) => {
+const counterReducer = (state = 0, action) => {
     switch (action.type) {
         case 'inc':
-            return {
-                count: state.count + 1
-            };
+            return state + 1;
         case 'dec':
-            return {
-                count: state.count - 1
-            };
+            return state - 1;
         case 'res':
-            return {
-                count: 0
-            };
+            return 0;
         default:
             return state;
     }

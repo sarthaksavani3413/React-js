@@ -1,19 +1,21 @@
-import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, reset } from "./redux/action/Counteraction";
+import React from 'react';
+import Counter from './redux/Counter';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Add from './Crud/Add';
+import View from './Crud/View';
+import Edit from './Crud/Edit';
 
-function App() {
-  const count = useSelector((state) => state.count);
-  const dispatch = useDispatch();
-
+const App = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Redux Counter</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <button disabled={count == 0} onClick={() => dispatch(decrement())}>Decrement</button>
-      <button onClick={() => dispatch(reset())}>Reset</button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Counter />} />
+        <Route path="/add" element={<Add />} />
+        <Route path="/view" element={<View />} />
+        <Route path="/edit/:id" element={<Edit/>}/>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

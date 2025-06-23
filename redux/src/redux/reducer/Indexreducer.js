@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
+import CrudReducer from './Crudreducer';
 import counterReducer from './Counterreducer';
 
-const rootReducer = combineReducers({
-    count: counterReducer
+const Indexreducer = combineReducers({
+    count : counterReducer,
+    crud: CrudReducer
 });
 
-export default rootReducer;
+export default Indexreducer;
