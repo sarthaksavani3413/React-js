@@ -28,21 +28,21 @@ const addUser = (record) => {
 
 
 const viewUser = () => {
-  return async (dispatch) => {
-    try {
-      const res = await fetch(`http://localhost:3000/users`);
-      const data = await res.json();
-      dispatch({
-        type: 'viewUser',
-        payload: data // array of users
-      });
-    } catch (error) {
-      dispatch({
-        type: 'viewUsererr',
-        payload: error.message
-      });
-    }
-  };
+    return async (dispatch) => {
+        try {
+            const res = await fetch(`http://localhost:3000/users`);
+            const data = await res.json();
+            dispatch({
+                type: 'viewUser',
+                payload: data
+            });
+        } catch (error) {
+            dispatch({
+                type: 'viewUsererr',
+                payload: error.message
+            });
+        }
+    };
 };
 
 
@@ -123,4 +123,4 @@ const updateUser = (user) => {
     }
 }
 
-export { addUser, viewUser, deleteUser,editUser,updateUser };
+export { addUser, viewUser, deleteUser, editUser, updateUser };
